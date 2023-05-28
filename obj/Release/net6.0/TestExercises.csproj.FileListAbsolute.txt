@@ -1,0 +1,15 @@
+C:\Users\emili\source\repos\DecoCLI\bin\Release\net6.0\TestExercises.exe
+C:\Users\emili\source\repos\DecoCLI\bin\Release\net6.0\TestExercises.deps.json
+C:\Users\emili\source\repos\DecoCLI\bin\Release\net6.0\TestExercises.runtimeconfig.json
+C:\Users\emili\source\repos\DecoCLI\bin\Release\net6.0\TestExercises.dll
+C:\Users\emili\source\repos\DecoCLI\bin\Release\net6.0\TestExercises.pdb
+C:\Users\emili\source\repos\DecoCLI\obj\Release\net6.0\TestExercises.csproj.AssemblyReference.cache
+C:\Users\emili\source\repos\DecoCLI\obj\Release\net6.0\TestExercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emili\source\repos\DecoCLI\obj\Release\net6.0\TestExercises.AssemblyInfoInputs.cache
+C:\Users\emili\source\repos\DecoCLI\obj\Release\net6.0\TestExercises.AssemblyInfo.cs
+C:\Users\emili\source\repos\DecoCLI\obj\Release\net6.0\TestExercises.csproj.CoreCompileInputs.cache
+C:\Users\emili\source\repos\DecoCLI\obj\Release\net6.0\TestExercises.dll
+C:\Users\emili\source\repos\DecoCLI\obj\Release\net6.0\refint\TestExercises.dll
+C:\Users\emili\source\repos\DecoCLI\obj\Release\net6.0\TestExercises.pdb
+C:\Users\emili\source\repos\DecoCLI\obj\Release\net6.0\TestExercises.genruntimeconfig.cache
+C:\Users\emili\source\repos\DecoCLI\obj\Release\net6.0\ref\TestExercises.dll

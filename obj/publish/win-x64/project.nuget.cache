@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NuiDkAvkvBcXdzVBiscjN1k6EGJxr5jaP9g31zBc7A0//5wZtP2Mk+XerhmvbMWDVkry32Ds++/pr0EcQfSE7A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emili\\source\\repos\\DecoCLI\\TestExercises.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emili\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.16\\microsoft.netcore.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\emili\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\emili\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x64.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
