@@ -1,0 +1,57 @@
+CREATE DATABASE OfficeDB;
+-------------------------------------------------
+CREATE TABLE Oficinas (
+		ID int NOT NULL PRIMARY KEY,
+		Nombre VARCHAR(100) NOT NULL,
+		Direccion VARCHAR(100) NOT NULL,
+		Ciudad VARCHAR(50) NOT NULL,
+		Estado VARCHAR(50) NOT NULL,
+		Pais VARCHAR(50) NOT NULL,
+		Division int NOT NULL
+);
+-------------------------------------------------
+CREATE PROCEDURE uspInsertOffice
+(
+	@ID INT,
+	@Nombre VARCHAR(100),
+	@Direccion VARCHAR(100),
+	@Ciudad VARCHAR(50),
+	@Estado VARCHAR(50),
+	@Pais VARCHAR(50),
+	@Division int,
+	@Update int
+)
+AS
+BEGIN
+	IF (@Update = 1)
+	BEGIN
+		INSERT INTO dbo.Oficinas(ID, Nombre, Direccion, Ciudad, Estado, Pais, Division)
+		VALUES(@ID, @Nombre, @Direccion, @Ciudad, @Estado, @Pais, @Division);
+	END
+	ELSE IF (@Update = 0)
+	BEGIN
+		UPDATE dbo.Oficinas
+		SET Direccion = @Direccion
+		WHERE ID = @ID;
+	END
+END
+GO
+-------------------------------------------------
+CREATE SEQUENCE IDOFICINA_SEC
+	AS INT
+	START WITH 1
+	INCREMENT BY 1;
+
+-------------------------------------------------
+CREATE TRIGGER trgInsertOficina
+ON dbo.Oficinas
+AFTER INSERT
+AS
+BEGIN
+	DECLARE @ID int;
+	SELECT @ID = NEXT VALUE FOR IDOFICINA_SEC;
+
+	UPDATE dbo.Oficinas
+	SET ID = @ID
+	WHERE ID IN (SELECT ID FROM inserted);
+END;
